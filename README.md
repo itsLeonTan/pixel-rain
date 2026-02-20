@@ -7,7 +7,7 @@ A Java rain simulator built with Java Swing (JFrame/JPanel)
 
 ## Inspiration
 
-This coding practice project is inspired by Coding Challenge video from Daniel Shiffman on The Coding Train (https://youtu.be/KkyIDI6rQJI?si=pMFaTmfJdwBiK8tg).
+This coding practice project is inspired by [Coding Challenge video from Daniel Shiffman on The Coding Train](https://youtu.be/KkyIDI6rQJI?si=pMFaTmfJdwBiK8tg).
 
 The core concept is similar, but the implementation differs and was written independently in Java.
 
