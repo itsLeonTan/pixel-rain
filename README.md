@@ -15,13 +15,13 @@ The goal remains the same: simulate 3D rainfall in a 2D environment.
 
 ## How It Works
 
-Each droplet holds an x, y, z, and len (length) value representing its position in 3D space.
+Each droplet holds an `x`, `y`, `z`, and `len` (length) value representing its position in 3D space.
 
-Movement only occurs in the y-axis as gravity is the only force at play here. The speed is influenced by the z-value; the lower the z-value, the faster it falls and vice versa. As z range from 1 to 100, the formula below is used to convert that range to 5 to 2 using linear algebra.
+Movement only occurs in the y-axis as gravity is the only force at play here. The speed is influenced by the `z`-value; the lower the `z`-value, the faster it falls and vice versa. As `z` range from 1 to 100, the formula below is used to convert that range to 5 to 2 using linear algebra.
 
 $speed = -\frac{1}{33}z + \frac{166}{33}$
 
-The length of the droplets is also influenced by its z-value. The lower it is, the longer it becomes and vice versa to simulate depth. The formula is also derived using linear algebra.
+The length of the droplets is also influenced by its `z`-value. The lower it is, the longer it becomes and vice versa to simulate depth. The formula is also derived using linear algebra.
 
 $length = -\frac{5}{33} z + \frac{665}{33}$
 
